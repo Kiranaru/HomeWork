@@ -6,7 +6,7 @@
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
 int numMin = 2;
-Console.WriteLine($"Pleade, input positive Number more then {numMin}");
+Console.WriteLine($"Please, input positive Number more then {numMin}");
 
 int number = NumeroInput(numMin);
 
@@ -29,3 +29,5 @@ void NaturalNumbersOutput(int num)
     Console.Write($"{num}, ");
     NaturalNumbersOutput(num - 1);
 }
+
+
